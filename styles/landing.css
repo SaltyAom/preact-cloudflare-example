@@ -1,0 +1,13 @@
+#landing {
+    @apply flex flex-col justify-center items-center w-full;
+    min-height: calc(100vh - 58px);
+    margin: 0;
+}
+
+#landing > .title {
+    @apply text-5xl font-light text-gray-800 m-0;
+}
+
+#landing > .detail {
+    @apply text-lg font-light text-gray-600 m-0 mt-4;
+}

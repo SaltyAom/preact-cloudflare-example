@@ -1,0 +1,12 @@
+#about {
+    @apply flex flex-col mx-auto my-6;
+    max-width: 840px;
+}
+
+#about > .title {
+    @apply text-3xl text-gray-800 my-4 font-semibold;
+}
+
+#about > .content {
+    @apply text-lg text-gray-600 my-2;
+}

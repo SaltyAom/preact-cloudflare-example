@@ -1,0 +1,19 @@
+#nav {
+    @apply fixed top-0 left-0 flex flex-row justify-center items-center w-full;
+    height: 58px;
+}
+
+#nav > .link {
+    @apply flex items-center p-2 mx-2 border-t-2 border-b-2 border-transparent;
+    height: inherit;
+    transition: border-bottom-color .15s ease-out;
+}
+
+#nav > .link:hover,
+#nav > .link:focus {
+    border-bottom-color: #007aff;
+}
+
+#app {
+    padding-top: 58px;
+}
